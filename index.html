@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Surya Narayanan Portfolio</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <center>
+        <h2>Surya Narayanan S Portfolio</h2>
+        
+        <!-- Login form linking to Main.html -->
+        <form action="Main.html" method="get">
+            <table>
+                <tr>
+                    <td>NAME</td>
+                    <td><input type="text" name="name" required placeholder="Enter your name"></td>
+                </tr>
+
+                <tr>
+                    <td>EMAIL</td>
+                    <td><input type="email" name="email" required placeholder="Enter your email"></td>
+                </tr>
+                
+                <tr>
+                    <td>PASSWORD</td>
+                    <td><input type="password" name="password" required placeholder="Enter password"></td>
+                </tr>
+                
+                <tr>
+                    <td>AGE</td>
+                    <td><input type="number" name="age" required placeholder="Enter your age"></td>
+                </tr>
+                
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>COUNTRY</td>
+                    <td>
+                        <select name="country" required>
+                            <option value="">--Select--</option>
+                            <option>India</option>
+                            <option>US</option>
+                            <option>UK</option>
+                            <option>Japan</option>
+                            <option>China</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <!-- Centered submit button spanning both columns -->
+                <tr>
+                    <td colspan="2" style="text-align:center;">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
